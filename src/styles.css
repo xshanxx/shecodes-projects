@@ -35,6 +35,17 @@ h5 {
   top: -15px;
 }
 
+.active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+
+.active:hover {
+  text-decoration: none;
+  color: black;
+}
+
 #condition {
   text-transform: capitalize;
 }
