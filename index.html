@@ -10,19 +10,13 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap"
-      rel="stylesheet"
-    />
     <link href="src/styles.css" rel="stylesheet" type="text/css" />
     <script
       src="https://kit.fontawesome.com/bb28504322.js"
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <title>Weather</title>
+    <title>Weather Updated 19 Sep</title>
   </head>
   <body>
     <div class="container">
@@ -55,70 +49,29 @@
         </div>
       </form>
       <h1 id="city">
-        SINGAPORE<br />
+        <br />
         <i class="fas fa-cloud-sun cloud-sun-icon"></i>
       </h1>
       <h2>
-        <strong
-          ><span id="temp">26</span
-          ><span class="units">
-            <a href="#" id="celsius-link">°C</a> |
-            <a href="#" id="fahrenheit-link">°F</a>
-          </span></strong
-        >
+        <span id="temp"><strong></strong></span
+        ><span class="units">
+          <a href="#" id="celsius-link">°C</a> |
+          <a href="#" id="fahrenheit-link">°F</a>
+        </span>
       </h2>
       <h4>
-        Humidity: <span id="humidity">50</span>% | Wind:
-        <span id="wind">5</span> km/h
-        <br />
         <span id="condition">Partly cloudy</span>
         <br />
         <span id="date"></span>
+        <br />
       </h4>
-      <div class="container invisible-box">
-        <div class="row row-cols-lg-5 g-2 g-lg-3">
-          <div class="col">
-            <div class="p-3">
-              <h4>Mon, 9/8</h4>
-              <i class="fas fa-cloud-showers-heavy showers-icon"></i>
-              <br />
-              <p>25 - 33°C</p>
-            </div>
-          </div>
-          <div class="col">
-            <div class="p-3">
-              <h4>Tue, 10/8</h4>
-              <i class="fas fa-cloud-showers-heavy showers-icon"></i>
-              <br />
-              <p>25 - 33°C</p>
-            </div>
-          </div>
-          <div class="col">
-            <div class="p-3">
-              <h4>Wed, 11/8</h4>
-              <i class="fas fa-bolt bolt-icon"></i>
-              <br />
-              <p>25 - 33°C</p>
-            </div>
-          </div>
-          <div class="col">
-            <div class="p-3">
-              <h4>Thu, 12/8</h4>
-              <i class="fas fa-bolt bolt-icon"></i>
-              <br />
-              <p>25 - 33°C</p>
-            </div>
-          </div>
-          <div class="col">
-            <div class="p-3">
-              <h4>Fri, 13/8</h4>
-              <i class="fas fa-cloud-showers-heavy showers-icon"></i>
-              <br />
-              <p>25 - 33°C</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <h5>
+        <br />
+        Humidity: <span id="humidity"></span>%
+        <br />
+        Wind:
+        <span id="wind"></span> km/h <br />
+      </h5>
     </div>
     <p>
       <a href="https://github.com/xshanxx/shecodes-projects" target="noreferrer"
