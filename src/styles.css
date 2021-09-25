@@ -4,7 +4,7 @@ body {
 
 h1 {
   font-weight: bold;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 h2 {
@@ -14,11 +14,12 @@ h2 {
 
 h4 {
   font-weight: bold;
-  line-height: 36px;
+  margin-bottom: 20px;
 }
 
 h5 {
   font-weight: bold;
+  margin-top: 0;
 }
 
 .container {
@@ -51,7 +52,7 @@ h5 {
 }
 
 .weather-forecast {
-  margin-top: 20px;
+  margin-top: 50px;
   text-align: center;
 }
 
