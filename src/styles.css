@@ -24,9 +24,9 @@ h5 {
 .container {
   display: block;
   margin: 30px auto;
-  padding-top: 70px;
+  padding-top: 20px;
   border: solid lightgrey 1px;
-  padding-bottom: 70px;
+  padding-bottom: 20px;
 }
 
 .units {
@@ -48,4 +48,26 @@ h5 {
 
 #condition {
   text-transform: capitalize;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.forecast-day {
+  font-weight: bold;
+}
+
+.forecast-temps {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.max {
+  color: grey;
+}
+
+.min {
+  color: darkgrey;
 }
